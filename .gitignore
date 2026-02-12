@@ -27,3 +27,12 @@ Thumbs.db
 venv/
 env/
 ENV/
+
+# AeroVision specific
+uploads/
+*.mp4
+*.avi
+*.mov
+
+# AI Model (download via fetch_weights.py)
+best.pt

@@ -5,7 +5,11 @@ def index() -> rx.Component:
     return rx.center(
         rx.vstack(
             rx.heading("AeroVision Dashboard", size="9", weight="bold"),
-            rx.text("AI-Powered F1 Brand Audit Beta", color_scheme="gray"),
+            rx.hstack(
+                rx.text("AI-Powered F1 Brand Audit Beta", color_scheme="gray"),
+                rx.badge(State.model_status, color_scheme="green"),
+                spacing="3",
+            ),
             
             rx.cond(
                 State.is_maintenance,
