@@ -1,1 +1,16 @@
+# Core Framework
 reflex>=0.4.0
+
+# AI/ML Dependencies
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Video Processing
+moviepy>=1.0.3
+
+# Utilities
+python-multipart>=0.0.6
